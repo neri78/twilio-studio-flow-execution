@@ -18,13 +18,13 @@ npm install
 
 ## 3. 環境変数の設定
 `.env.sample`ファイルをコピーし、`.env`と名前を変更します。
-このファイルには、次の変数が定義されています。それぞれ[Twilioコンソール](https://www.twilio.com/console)、[電話番号コンソール](https://www.twilio.com/console/phone-numbers/incoming)、そして先ほど控えた情報から設定します。
+このファイルには、次の変数が定義されています。それぞれ[Twilioコンソール](https://www.twilio.com/console)、[電話番号コンソール](https://www.twilio.com/console/phone-numbers/incoming)で確認できる内容、そして記事に則り控えたStudio Flow SIDを設定します。
 
 ```bash
 TWILIO_ACCOUNT_SID=<Account SIDの値>
 TWILIO_AUTH_TOKEN=<Auth Tokenの値>
 TWILIO_PHONE_NUMBER=<SMS発信が可能な電話番号>
-TWILIO_STUDIO_FLOW_SID=<先ほど控えたFlow SIDの値>
+TWILIO_STUDIO_FLOW_SID=<Studio Flow SID>
 ```
 
 ## 4. 発信先番号の設定
