@@ -1,0 +1,24 @@
+{
+  "name": "twilio-studio-flow-execution",
+  "version": "1.0.0",
+  "description": "This is a sample to execute a Twilio Studio Flow.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twilio": "^3.46.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neri78/twilio-studio-flow-execution.git"
+  },
+  "author": "Neri78",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neri78/twilio-studio-flow-execution/issues"
+  },
+  "homepage": "https://github.com/neri78/twilio-studio-flow-execution#readme"
+}
