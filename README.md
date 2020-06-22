@@ -1,6 +1,6 @@
 # twilio-studio-flow-execution
 このプロジェクトは下記の記事の動作を確認いただけるサンプルです。  　
-- [Twilio StudioフローとNode.jsを用いて外部にメッセージを発信する方法](https://www.twilio.com/twilio-studio-rest-api-jp)
+- [Twilio StudioフローとNode.jsを用いて外部にメッセージを発信する方法](https://www.twilio.com/blog/twilio-studio-rest-api-jp)
 
 ## 前提条件
 
@@ -8,7 +8,7 @@
 - [SMSを利用できる電話番号を購入](https://support.twilio.com/hc/en-us/articles/360044841214-Twilio-%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6#h_167b5625-0036-44e6-936f-108ed091cb80)していること
 
 ## 1. Twilio Studioフローの作成
-[Twilio StudioフローとNode.jsを用いて外部にメッセージを発信する方法](https://www.twilio.com/twilio-studio-rest-api-jp)の記事に沿ってStudioフローを作成し、`Studio Flow SID` (FWxxxxx）を控えておきます。
+[Twilio StudioフローとNode.jsを用いて外部にメッセージを発信する方法](https://www.twilio.com/blog/twilio-studio-rest-api-jp)の記事に沿ってStudioフローを作成し、`Studio Flow SID` (FWxxxxx）を控えておきます。
 
 ## 2. 必要パッケージのインストール
 リポジトリをクローンし、パッケージをインストールしてください。
