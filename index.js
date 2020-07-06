@@ -10,8 +10,8 @@ client.studio.flows(process.env.TWILIO_STUDIO_FLOW_SID)
         from: process.env.TWILIO_PHONE_NUMBER,
         to:  '発信先の番号をE.164フォーマットで設定', //発信先
         parameters : {
-            "redeliverly_datetime" : new Date("2020/06/23 15:00:00").toLocaleString()
-        } // 再配達日時をredeliverly_datetimeとしてFlowに渡す。
+            "redelivery_datetime" : new Date("2020/06/23 15:00:00").toLocaleString()
+        } // 再配達日時をredeliverry_datetimeとしてFlowに渡す。
     })
     .then (flow => console.log(flow))
     .catch(err => console.log(err));
